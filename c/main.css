@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "PTSansReg", Arial, sans-serif;
+  src: url(/c/f/PTSansReg.woff) format("woff");
+  src: url(/c/f/PTSansReg.ttf) format("TrueType");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  color: yellow;
+  }
+h1 {
+  color: blue;
+}
+h1 + p {
+  font-size: 1.2em;
+  color: violet;
+}
+p {
+  color: green;
+  letter-spacing: -.01em;
+}
+.caption {
+  font-style: italic;
+  font-size: .8em;
+}
+li {
+  color: red;
+}
+.name {
+  color: purple;
+}
+em {
+  color: brown;
+}
+th {
+  text-align: left;
+  font-weight: normal;
+  color: blue;
+}
+td {
+  align: left;
+  color: purple;
+}
